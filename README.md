@@ -121,18 +121,6 @@ graph TD;
 ```
 
 
-## Method:7 (Custom Shape Flowchart)
-```mermaid
-graph TD;
-    A[Start] --> B([Decision])  <!-- Circle -->
-    B -->|Yes| C[Process 1]      <!-- Rectangle -->
-    B -->|No| D{Process 2}        <!-- Diamond -->
-    C --> E[End]                 <!-- Rectangle -->
-    D --> E
-
-```
-
-
 
 
 
@@ -145,7 +133,7 @@ graph TD;
 
 ## Method:8 (Custom Shape Flowchart)
 
-```markdown
+
 ```mermaid
 graph TD;
     style A fill:#f9f,stroke:#333,stroke-width:2px;
