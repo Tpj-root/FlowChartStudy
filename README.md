@@ -107,7 +107,7 @@ graph TD;
 
 
 
-## Method:6 (Image)
+## Method:6 (Image) # not work
 ```mermaid
 graph TD;
     A1[Input 1<br><img src="https://i.pinimg.com/736x/5e/9f/22/5e9f22fe0856cebcfa5409dd0f7b00ca.jpg" width="50" height="50"/>] --> B[Step 1]
@@ -118,6 +118,49 @@ graph TD;
     E --> F{Is it complete?}
     F -- Yes --> G[Finish]
     F -- No --> B
+```
 
+
+## Method:7 (Custom Shape Flowchart)
+```mermaid
+graph TD;
+    A[Start] --> B([Decision])  <!-- Circle -->
+    B -->|Yes| C[Process 1]      <!-- Rectangle -->
+    B -->|No| D{Process 2}        <!-- Diamond -->
+    C --> E[End]                 <!-- Rectangle -->
+    D --> E
+
+```
+
+
+
+
+
+### Explanation of Shapes
+
+- **Rectangles**: Default shape for regular nodes.
+- **Circles**: Use parentheses `()` to create circular nodes.
+- **Diamonds**: Use curly braces `{}` to create diamond shapes for decisions.
+
+
+## Method:8 (Custom Shape Flowchart)
+
+```markdown
+```mermaid
+graph TD;
+    style A fill:#f9f,stroke:#333,stroke-width:2px;
+    style B fill:#ff0,stroke:#000,stroke-width:2px;
+    style C fill:#0f0,stroke:#000,stroke-width:2px;
+    style D fill:#0ff,stroke:#000,stroke-width:2px;
+    
+    A[Start] --> B([Decision])
+    B -->|Yes| C[Process 1]
+    B -->|No| D{Process 2}
+    C --> E[End]
+    D --> E
+
+```
+
+## Method:9 
 
 
