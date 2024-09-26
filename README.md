@@ -74,7 +74,9 @@ graph TD;
 
 
 
-## Method:4
+## Method:4 (TWO input)
+
+
 ```mermaid
 graph TD;
     A1[Input 1] --> B[Step 1]
@@ -87,5 +89,24 @@ graph TD;
     F -- No --> B
 
 ```
+
+
+
+## Method:4 (URL)
+```mermaid
+graph TD;
+    A1[Input 1<br><a href="https://example.com/input1">Link</a>] --> B[Step 1<br><a href="https://example.com/step1">Details</a>]
+    A2[Input 2<br><a href="https://example.com/input2">Link</a>] --> B
+    B --> C[Step 2<br><a href="https://example.com/step2">Details</a>]
+    C --> D[Step 3<br><a href="https://example.com/step3">Details</a>]
+    D --> E[Step 4<br><a href="https://example.com/step4">Details</a>]
+    E --> F{Is it complete?}
+    F -- Yes --> G[Finish<br><a href="https://example.com/finish">Link</a>]
+    F -- No --> B
+```
+
+
+
+
 
 
