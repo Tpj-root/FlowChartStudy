@@ -149,6 +149,22 @@ graph TD;
 
 ```
 
-## Method:9 
+## Method:9 (subgraph)
+
+```mermaid
+graph TD;
+    subgraph A[Group A]
+        A1[Input 1]
+        A2[Input 2]
+    end
+    subgraph B[Group B]
+        B1[Step 1]
+        B2[Step 2]
+    end
+    A1 --> B1
+    A2 --> B2
+```
+
+
 
 
