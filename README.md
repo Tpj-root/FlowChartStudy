@@ -92,7 +92,7 @@ graph TD;
 
 
 
-## Method:4 (URL)
+## Method:5 (URL)
 ```mermaid
 graph TD;
     A1[Input 1<br><a href="https://example.com/input1">Link</a>] --> B[Step 1<br><a href="https://example.com/step1">Details</a>]
@@ -107,6 +107,17 @@ graph TD;
 
 
 
+## Method:6 (Image)
+```mermaid
+graph TD;
+    A1[Input 1<br><img src="https://i.pinimg.com/736x/5e/9f/22/5e9f22fe0856cebcfa5409dd0f7b00ca.jpg" width="50" height="50"/>] --> B[Step 1]
+    A2[Input 2<br><img src="https://cdn-icons-png.freepik.com/512/15686/15686999.png" width="50" height="50"/>] --> B
+    B --> C[Step 2]
+    C --> D[Step 3]
+    D --> E[Step 4]
+    E --> F{Is it complete?}
+    F -- Yes --> G[Finish]
+    F -- No --> B
 
 
 
