@@ -32,7 +32,7 @@ A, B, C, and D represent nodes
 
 
 
-## Method:1
+## Method:2
 
 ```mermaid
 graph TD;
@@ -58,3 +58,15 @@ graph TD;
 
 
 
+## Method:3
+
+```mermaid
+graph TD;
+    A[Start] --> B[Step 1]
+    B --> C[Step 2]
+    C --> D[Step 3]
+    D --> E[Step 4]
+    E --> F{Is it complete?}
+    F -- Yes --> G[Finish]
+    F -- No --> B
+```
