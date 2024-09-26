@@ -121,8 +121,28 @@ graph TD;
 ```
 
 
+## Method:7 (Circle)
+```mermaid
+graph TD;
+    A1[clock] --> B[Step 1]
+    A1[clock] --> C[Step 2]
+    A1[clock] --> D[Step 3]
+    A1[clock] --> E[Step 4]
+    A1[clock] --> F[Step 5]
+    A1[clock] --> G[Step 6]
+    A1[clock] --> H[Step 7]
+    A1[clock] --> I[Step 8]
+    A1[clock] --> J[Step 9]
+    A1[clock] --> K[Step 10]
+    A1[clock] --> L[Step 11]
+    A1[clock] --> M[Step 12]
+
+    M --> N[Step 13]
+    N --> O[Step 14]
+    O --> P[Step 15]
 
 
+```
 
 ### Explanation of Shapes
 
@@ -167,6 +187,9 @@ graph TD;
 
 
 ## Method:10 (plantuml)
+
+## HELP
+https://plantuml.com/sequence-diagram
 
 
 ### http://www.plantuml.com/plantuml/uml/SyfFKj2rKt3CoKnELR1Io4ZDoSa70000
