@@ -70,3 +70,22 @@ graph TD;
     F -- Yes --> G[Finish]
     F -- No --> B
 ```
+
+
+
+
+## Method:4
+```mermaid
+graph TD;
+    A1[Input 1] --> B[Step 1]
+    A2[Input 2] --> B
+    B --> C[Step 2]
+    C --> D[Step 3]
+    D --> E[Step 4]
+    E --> F{Is it complete?}
+    F -- Yes --> G[Finish]
+    F -- No --> B
+
+```
+
+
